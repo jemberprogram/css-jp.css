@@ -1,0 +1,107 @@
+body,html{
+    overflow-x: hidden;
+    margin: 0;
+}
+#topnav{
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+  
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#header{
+    height: 450px;
+    width: 100%;
+    position: relative;
+    margin-top: 120px;
+    padding-left: 0;
+    left: 0;
+  
+    background-color: rgba(13, 59, 112, 0.9);
+    overflow-x: hidden;
+   
+}
+
+.mySlides {display: none;
+    width: 100%;
+}
+.mySlides  img {
+
+    width: 500px;
+    height: 400px;
+    padding-top: 25px;
+    margin-left: 25px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+
+position: relative;
+width: 100%;
+
+
+}
+
+/* Caption text */
+.Ket {
+
+padding: 8px 12px;
+position: absolute;
+right:25px;
+top: 15px;
+width: 50%;;
+height: 400px;
+color:white;
+
+}
+.ket h2{
+width: 100%;
+font-size: 40px;
+text-align:left;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ket p{
+width: 80%;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 16pt;
+text-align:left;
+}
+/* The dots/bullets/indicators */
+.dot {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
